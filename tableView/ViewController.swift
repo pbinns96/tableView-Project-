@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     var dataForBooks: [String] = ["Catcher in the Rye", "Timekeeper","The Martian","The Book Thief"]
     var dataForMovies: [String] = ["Ferris Bueller's Day Off", "Oculus", "Black Panther", "Hidden Figures"]
 
+    @IBOutlet weak var buttonLabel: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var myCustomTableView: UITableView!
     @IBOutlet weak var appendMovieTextField: UITextField!

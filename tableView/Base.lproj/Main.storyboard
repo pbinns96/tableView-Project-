@@ -77,7 +77,7 @@
                     </view>
                     <connections>
                         <outlet property="appendMovieTextField" destination="I3J-aM-uyz" id="b8c-q4-EXV"/>
-                        <outlet property="buttonLabel" destination="V29-2U-zy4" id="dmO-zW-lMt"/>
+                        <outlet property="buttonLabel" destination="V29-2U-zy4" id="OBB-9f-dRJ"/>
                         <outlet property="myCustomTableView" destination="iEU-2i-RMd" id="gos-DX-k7P"/>
                         <outlet property="titleLabel" destination="jlI-ah-BsO" id="q9Y-Q5-U54"/>
                     </connections>
