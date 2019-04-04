@@ -69,9 +69,9 @@ class ViewController: UIViewController, UITableViewDataSource {
         }
     }
     @IBAction func removeButtonPressed(_ sender: Any) {
-        if booksLoaded == false {dataForMovies.removeLast()
+        if booksLoaded == false && dataForMovies.isEmpty == false {dataForMovies.removeLast()
             myCustomTableView.reloadData()}
-        if booksLoaded == true {
+        if booksLoaded == true && dataForBooks.isEmpty == false {
             dataForBooks.removeLast()
             myCustomTableView.reloadData()
         }
