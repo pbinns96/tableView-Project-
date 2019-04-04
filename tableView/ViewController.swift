@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource {
     var booksLoaded = false
     var booksOrMovies = 1
-    
-    var dataForBooks: [String] = ["Book"]
-    var dataForMovies: [String] = ["Star Wars", "Star Trek", "Star Destroyer", "Star is Born", "Star Power"]
+    //need 4 of each
+    var dataForBooks: [String] = ["Catcher in the Rye", "Timekeeper","The Martian","The Book Thief"]
+    var dataForMovies: [String] = ["Ferris Bueller's Day Off", "Oculus", "Black Panther", "Hidden Figures"]
 
     @IBOutlet weak var buttonLabel: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
